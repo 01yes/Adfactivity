@@ -1,0 +1,9 @@
+{
+	"name": "forsqlconnect",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c426e214-8186-4768-aee3-d5d86ca5f8c8",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
