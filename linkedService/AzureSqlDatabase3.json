@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "idkb.database.windows.net",
+			"database": "new",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "new",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY0RkY3MkQ2LTRCQzYtNDk5My1BQTdBLTY4MEY5ODkwRTE4QV9hNjNhM2I5Mi0yNTU3LTQ3ZTAtODdjNS0xOWMyNWM3YWIyZDQiDQp9"
+		}
+	}
+}
