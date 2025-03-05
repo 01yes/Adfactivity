@@ -1,0 +1,17 @@
+{
+	"name": "Azure",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "severfor.database.windows.net",
+			"database": "finale",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "abd",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY0RkY3MkQ2LTRCQzYtNDk5My1BQTdBLTY4MEY5ODkwRTE4QV84YjY2MTMyMC1mMjA3LTQzN2ItOWUzNy01MDY1MmEwYjUxNjkiDQp9"
+		}
+	}
+}
